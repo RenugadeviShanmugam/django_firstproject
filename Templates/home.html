@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <title>Home</title>
+  </head>
+  <body>
+    {% block content %}
+    <form action="product" autocomplete="off">
+      <h1>Product</h1>
+      Monitor <input type="text" name="monitor" /><br /><br />
+      Keyboard <input type="text" name="keyboard" /><br /><br />
+      Printer <input type="text" name="printer" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    {% endblock %}
+  </body>
+</html>
